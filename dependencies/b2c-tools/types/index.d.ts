@@ -1,3 +1,49 @@
+declare namespace _exports {
+    export { MigrationScriptArguments, MigrationScriptCallback, MigrationHelpers, MigrationLifecycleFunctions, MigrateInstanceOptions };
+}
+declare namespace _exports {
+    export { version };
+    export { cli };
+    export { CONFIG };
+    export { logger };
+    export { Environment };
+    export { migrateInstance };
+    export { runMigrationScript };
+    export { runMigrationScriptText };
+    export { B2C_MIGRATION_HELPERS };
+    export { syncCartridges };
+    export { findCartridges };
+    export { executeJob };
+    export { waitForJob };
+    export { sleep };
+    export { siteArchiveImport };
+    export { siteArchiveExport };
+    export { siteArchiveExportJSON };
+    export { siteArchiveImportJSON };
+    export { siteArchiveExportText };
+    export { siteArchiveImportText };
+    export { ensureDataAPIPermissions };
+    export { runAsScript };
+    export { parseConfig };
+    export { getInstanceInfo };
+    export { getInstancePreferenceInfo };
+    export { getInstanceFeatureState };
+    export { collectFeatures };
+    export { deployFeature };
+    export { removeFeature };
+    export { updateFeatureState };
+    export let commands: {
+        command: string;
+        desc: string;
+        builder: (yargs: any) => any;
+    }[];
+}
+export = _exports;
+type MigrationScriptArguments = import('./migrations').MigrationScriptArguments;
+type MigrationScriptCallback = import('./migrations').MigrationScriptCallback;
+type MigrationHelpers = import('./migrations').MigrationHelpers;
+type MigrationLifecycleFunctions = import('./migrations').MigrationLifecycleFunctions;
+type MigrateInstanceOptions = import('./migrations').MigrateInstanceOptions;
 import { cli } from "./config";
 import CONFIG = require("./global-config");
 import logger = require("./logger");
@@ -27,10 +73,4 @@ import { collectFeatures } from "./features";
 import { deployFeature } from "./features";
 import { removeFeature } from "./features";
 import { updateFeatureState } from "./features";
-export declare let commands: {
-    command: string;
-    desc: string;
-    builder: (yargs: any) => any;
-}[];
-export { version, cli, CONFIG, logger, Environment, migrateInstance, runMigrationScript, runMigrationScriptText, B2C_MIGRATION_HELPERS, syncCartridges, findCartridges, executeJob, waitForJob, sleep, siteArchiveImport, siteArchiveExport, siteArchiveExportJSON, siteArchiveImportJSON, siteArchiveExportText, siteArchiveImportText, ensureDataAPIPermissions, runAsScript, parseConfig, getInstanceInfo, getInstancePreferenceInfo, getInstanceFeatureState, collectFeatures, deployFeature, removeFeature, updateFeatureState };
 //# sourceMappingURL=index.d.ts.map
