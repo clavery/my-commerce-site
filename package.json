@@ -1,0 +1,17 @@
+{
+  "name": "my-commerce-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@SalesforceCommerceCloud/b2c-tools": "file:dependencies/b2c-tools"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}

@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "target": "es5",
+        "jsx": "react",
+        "allowJs": true,
+        "checkJs": true,
+        "strictNullChecks": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": false,
+        "moduleResolution": "bundler",
+        "noEmitOnError": true,
+        "noUnusedLocals": true,
+        "experimentalDecorators": true,
+        "incremental": true,
+        "forceConsistentCasingInFileNames": true,
+        "baseUrl": "./",
+        "types": [
+             "node"
+        ],
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "module": "commonjs",
+        "target": "es5",
+        "esModuleInterop": true
+
+    },
+    "include": [
+        "./cartridges/**/*.js",
+        "migrations/**/*.js",
+        "scripts/**/*.js"
+    ],
+    "compileOnSave": false
+}
+
