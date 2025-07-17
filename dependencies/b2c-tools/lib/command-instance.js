@@ -127,7 +127,7 @@ function maskSensitiveValues(obj, shouldMask) {
     const masked = {};
     
     for (const [key, value] of Object.entries(obj)) {
-        if (value && typeof value === 'string' && SENSITIVE_ATTRIBUTES.some(attr => key.toLowerCase().includes(attr.toLowerCase()))) {
+        if (value && typeof value === 'string' && SENSITIVE_ATTRIBUTES.some(attr => key.toLowerCase() === attr.toLowerCase())) {
             // Keep first 4 characters and mask the rest
             masked[key] = value.length > 4 
                 ? value.substring(0, 4) + '*'.repeat(value.length - 4)
