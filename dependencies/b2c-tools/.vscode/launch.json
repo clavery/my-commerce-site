@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/mfussenegger/dapconfig-schema/master/dapconfig-schema.json",
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "prophet",
+            "request": "launch",
+            "name": "Attach to Sandbox"
+        },
+        {
+            "type": "prophet",
+            "request": "launch",
+            "name": "Attach to Sandbox 001",
+            "sfcc": {
+                "instance": "001",
+                "code-version": "version1"
+            }
+        }
+    ]
+}
