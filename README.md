@@ -39,6 +39,14 @@ npm install
     - For instance in my library export `d570c14bd8a1ec9d3fd9c914f8` component sets an `image` and a `mobImage`
     - `b2c-tools export page main -q image.path -q mobImage.path`
     - Recommend adding this to `b2c-tools.asset-query` in `package.json` per project
+- Using the page designer walk API
+    - First parse the library xml: `await Library.parse(libraryXML)`
+    - Then we can use that `Library` object to walk the content tree
+    - `library.filter` will filter (or really "hide") any content that doesn't match the test
+    - with a filtered library we can use `library.traverse` to walk again but with the callback able to mutate the content
+    - `library.reset()` resets the filter (meaning all become unhidden)
+    - There are some non-default flags for certain use cases
+    - Finally we can output the library to a new string with `await library.toXMLString()` and do whatever including importing back to the instance.
 
 ### Features
 
