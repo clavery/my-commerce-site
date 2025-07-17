@@ -6,12 +6,31 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
+  "private": true,
+  "license": "Private",
   "description": "",
   "dependencies": {
     "@SalesforceCommerceCloud/b2c-tools": "file:dependencies/b2c-tools"
   },
   "devDependencies": {
     "typescript": "^5.8.3"
+  },
+  "b2c-tools": {
+    "defaultClientId": "47ccb7e7-dd4d-4434-8d1b-a95ae5623ccf",
+    "library": "NTO-SiteSharedLibrary",
+    "exclude-migrations": [
+      "^_.*"
+    ],
+    "exclude-cartridges": [
+      "test_cartridge",
+      "plugin_example",
+      "plugin_excludeme"
+    ],
+    "shortCode": "kv7kzm78",
+    "asset-query": [
+      "image.path",
+      "bgImage.path",
+      "mobImage.path"
+    ]
   }
 }

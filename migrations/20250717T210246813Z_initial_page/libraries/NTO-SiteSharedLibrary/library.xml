@@ -1,0 +1,2531 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<library xmlns="http://www.demandware.com/xml/impex/library/2006-10-31" library-id="NTO-SiteSharedLibrary">
+  <content content-id="e1c7dfc0a7cbd5536397fdbd12">
+    <type>component.assets.video</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "border": null,
+  "product": null,
+  "backgroundColor": null,
+  "spacing": null,
+  "ratings": null,
+  "quickView": null,
+  "swatches": null
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="5ae58b8cc1b9c227ac03713a57">
+    <display-name xml:lang="x-default">Section Header Component</display-name>
+    <type>component.assets.sectionHeader</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "showDesignElement": false,
+  "spacing": {
+    "active": "lg",
+    "lg": {
+      "margin": {
+        "top": "5",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "md": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "sm": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "xs": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    }
+  },
+  "headingColor": null,
+  "heading": "#WeAreNTO",
+  "subheadingColor": null,
+  "subheading": "Share how you take NTO with you on your outdoor adventures using #WeAreNTO on social channels"
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="160be4458107a898dea4e630e4">
+    <display-name xml:lang="x-default">1 Column Component</display-name>
+    <type>component.layouts.1_column</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "border": null,
+  "hideGutters": false,
+  "backgroundColor": null,
+  "spacing": {
+    "active": "xs",
+    "lg": {
+      "margin": {
+        "top": "0",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "md": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "sm": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "xs": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "3",
+        "bottom": "",
+        "left": "3"
+      }
+    }
+  },
+  "alignment": {
+    "active": "xs",
+    "lg": {
+      "direction": "row",
+      "horizontal": "center",
+      "vertical": "start"
+    },
+    "md": {
+      "direction": "row",
+      "horizontal": "start",
+      "vertical": "start"
+    },
+    "sm": {
+      "direction": "row",
+      "horizontal": "start",
+      "vertical": "start"
+    },
+    "xs": {
+      "direction": "row",
+      "horizontal": "start",
+      "vertical": "start"
+    }
+  },
+  "column1Width": {
+    "active": "lg",
+    "lg": "12",
+    "md": "12",
+    "sm": "12",
+    "xs": "12"
+  },
+  "isFullWidth": true
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+    <content-links>
+      <content-link content-id="5ae58b8cc1b9c227ac03713a57" type="component.layouts.1_column.column1">
+        <position>0.0</position>
+      </content-link>
+    </content-links>
+  </content>
+  <content content-id="ebd0d485ac4d566807646797dc">
+    <display-name xml:lang="x-default">Image Component</display-name>
+    <type>component.assets.image</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "border": null,
+  "image": {
+    "path": "/images/homepage/home-promo-01-800-600.png",
+    "focal_point": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meta_data": {
+      "height": 600,
+      "width": 800
+    }
+  },
+  "backgroundColor": null,
+  "spacing": {
+    "active": "lg",
+    "lg": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "md": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "sm": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "xs": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    }
+  },
+  "overlayPosition": null,
+  "link": null,
+  "content": null
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="2005063912638a3e20f771adcd">
+    <display-name xml:lang="x-default">Markup Component</display-name>
+    <type>component.assets.markup</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "border": null,
+  "backgroundColor": {
+    "color": "#f8f8f8"
+  },
+  "spacing": {
+    "active": "md",
+    "lg": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "0",
+        "right": "5",
+        "bottom": "",
+        "left": "5"
+      }
+    },
+    "md": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "3",
+        "bottom": "",
+        "left": "3"
+      }
+    },
+    "sm": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "xs": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "3",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    }
+  },
+  "markup": {
+    "content": "&lt;h2 style=\"text-align: left;\"&gt;&lt;span style=\"color: #393939;\"&gt;Created for a Lifetime of Exploring&lt;/span&gt;&lt;/h2&gt;\n&lt;blockquote&gt;\n&lt;p&gt;&lt;span style=\"color: #393939;\"&gt;NTO gear and apparel is guaranteed to last, that's our promise to you. We believe a life outdoors is a life well lived and we want to enable everyone to discover the benefits of spending time outdoors.&amp;nbsp;&lt;/span&gt;&lt;/p&gt;\n&lt;/blockquote&gt;"
+  },
+  "link": null
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="fb5feb50364cbe8e579eb469e5">
+    <display-name xml:lang="x-default">2 Column Component</display-name>
+    <type>component.layouts.2_column</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "column2Width": {
+    "active": "md",
+    "lg": "5",
+    "md": "5",
+    "sm": "5",
+    "xs": "12"
+  },
+  "border": null,
+  "hideGutters": true,
+  "backgroundColor": {
+    "color": "#f8f8f8"
+  },
+  "spacing": {
+    "active": "md",
+    "lg": {
+      "margin": {
+        "top": "5",
+        "right": "",
+        "bottom": "3",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "md": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "3",
+        "bottom": "",
+        "left": "3"
+      }
+    },
+    "sm": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "xs": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "0",
+        "left": ""
+      },
+      "padding": {
+        "top": "3",
+        "right": "3",
+        "bottom": "3",
+        "left": "3"
+      }
+    }
+  },
+  "wrapColumns": true,
+  "alignment": {
+    "active": "md",
+    "lg": {
+      "direction": "row",
+      "horizontal": "center",
+      "vertical": "center"
+    },
+    "md": {
+      "direction": "row",
+      "horizontal": "start",
+      "vertical": "center"
+    },
+    "sm": {
+      "direction": "row",
+      "horizontal": "start",
+      "vertical": "start"
+    },
+    "xs": {
+      "direction": "column",
+      "horizontal": "center",
+      "vertical": "start"
+    }
+  },
+  "column1Width": {
+    "active": "md",
+    "lg": "7",
+    "md": "7",
+    "sm": "7",
+    "xs": "12"
+  },
+  "isFullWidth": false
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+    <content-links>
+      <content-link content-id="ebd0d485ac4d566807646797dc" type="component.layouts.2_column.column1">
+        <position>0.0</position>
+      </content-link>
+      <content-link content-id="2005063912638a3e20f771adcd" type="component.layouts.2_column.column2">
+        <position>0.0</position>
+      </content-link>
+    </content-links>
+  </content>
+  <content content-id="0d954986be1f955c0d782f9d13">
+    <display-name xml:lang="x-default">Markup Component</display-name>
+    <type>component.assets.markup</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "border": null,
+  "backgroundColor": {
+    "color": "#f8f8f8"
+  },
+  "spacing": {
+    "active": "xs",
+    "lg": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "5",
+        "bottom": "",
+        "left": "5"
+      }
+    },
+    "md": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "sm": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "xs": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "3",
+        "right": "3",
+        "bottom": "3",
+        "left": "3"
+      }
+    }
+  },
+  "markup": {
+    "content": "&lt;h2&gt;NTO Ambassador Spotlight&lt;/h2&gt;\n&lt;p&gt;Our ambassadors embody the spirit and ideals we stand for at NTO. Get to know our newest ambassador, Scott Schreiber, and discover how he lives life at 14,000 feet.&lt;/p&gt;"
+  },
+  "link": "$url('Search-Show', 'cgid', 'ambassadors')$"
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="eb2fddeec7c0e56cefc50086d0">
+    <display-name xml:lang="x-default">Banner Component</display-name>
+    <type>component.assets.banner</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "image": {
+    "path": "/images/homepage/home-promo-02-800-600@2x.jpg",
+    "focal_point": {
+      "x": 0.55,
+      "y": 0.23
+    },
+    "meta_data": {
+      "height": 1200,
+      "width": 1600
+    }
+  },
+  "buttonText": null,
+  "buttonType": null,
+  "headingColor": null,
+  "heading": null,
+  "overlayPosition": null,
+  "buttonLink": null,
+  "subheadingColor": null,
+  "subheading": null
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="b2c783c21b48a976713857bfb4">
+    <display-name xml:lang="x-default">2 Column Component</display-name>
+    <type>component.layouts.2_column</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "column2Width": {
+    "active": "lg",
+    "lg": "7",
+    "md": "12",
+    "sm": "12",
+    "xs": "12"
+  },
+  "border": null,
+  "hideGutters": true,
+  "backgroundColor": {
+    "color": "#f8f8f8"
+  },
+  "spacing": {
+    "active": "lg",
+    "lg": {
+      "margin": {
+        "top": "5",
+        "right": "",
+        "bottom": "5",
+        "left": ""
+      },
+      "padding": {
+        "top": "3",
+        "right": "3",
+        "bottom": "3",
+        "left": "3"
+      }
+    },
+    "md": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "sm": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "xs": {
+      "margin": {
+        "top": "5",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    }
+  },
+  "wrapColumns": false,
+  "alignment": {
+    "active": "xs",
+    "lg": {
+      "direction": "row",
+      "horizontal": "center",
+      "vertical": "center"
+    },
+    "md": {
+      "direction": "row",
+      "horizontal": "start",
+      "vertical": "start"
+    },
+    "sm": {
+      "direction": "row",
+      "horizontal": "start",
+      "vertical": "start"
+    },
+    "xs": {
+      "direction": "column",
+      "horizontal": "center",
+      "vertical": "center"
+    }
+  },
+  "column1Width": {
+    "active": "lg",
+    "lg": "5",
+    "md": "12",
+    "sm": "12",
+    "xs": "12"
+  },
+  "isFullWidth": false
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+    <content-links>
+      <content-link content-id="0d954986be1f955c0d782f9d13" type="component.layouts.2_column.column1">
+        <position>0.0</position>
+      </content-link>
+      <content-link content-id="eb2fddeec7c0e56cefc50086d0" type="component.layouts.2_column.column2">
+        <position>0.0</position>
+      </content-link>
+    </content-links>
+  </content>
+  <content content-id="0c8ca1d951be52af89f5583c93">
+    <display-name xml:lang="x-default">Einstein Carousel: Global Component</display-name>
+    <type>component.carousel.einsteinCarouselGlobal</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "border": null,
+  "backgroundColor": null,
+  "spacing": {
+    "active": "lg",
+    "lg": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "md": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "sm": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "xs": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    }
+  },
+  "breakpoints": {
+    "active": "lg",
+    "lg": {
+      "slidesToShow": 4,
+      "slidesToScroll": 3,
+      "centerMode": false,
+      "infinite": true,
+      "autoplay": false,
+      "autoplaySpeed": 8000,
+      "arrows": true,
+      "dots": false
+    },
+    "md": {
+      "slidesToShow": 3,
+      "slidesToScroll": 3,
+      "centerMode": false,
+      "infinite": false,
+      "autoplay": false,
+      "autoplaySpeed": 8000,
+      "arrows": false,
+      "dots": false
+    },
+    "sm": {
+      "slidesToShow": 2,
+      "slidesToScroll": 2,
+      "centerMode": false,
+      "infinite": true,
+      "autoplay": false,
+      "autoplaySpeed": 8000,
+      "arrows": false,
+      "dots": false
+    },
+    "xs": {
+      "slidesToShow": 2,
+      "slidesToScroll": 1,
+      "centerMode": false,
+      "infinite": false,
+      "autoplay": false,
+      "autoplaySpeed": 8000,
+      "arrows": false,
+      "dots": false
+    }
+  },
+  "recommender": {
+    "recommender": "Top-Sellers"
+  },
+  "isFullWidth": false
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="3b2b11426baecc0e1c18a36dbe">
+    <display-name xml:lang="x-default">Einstein Label</display-name>
+    <type>component.assets.sectionHeader</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "showDesignElement": false,
+  "spacing": {
+    "active": "lg",
+    "lg": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "md": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "sm": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "xs": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    }
+  },
+  "headingColor": null,
+  "heading": "Recommended For You",
+  "subheadingColor": null,
+  "subheading": null
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="60a4630c844e4ab6fb2c0c6bd8">
+    <display-name xml:lang="x-default">Banner Component</display-name>
+    <type>component.assets.banner</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "image": {
+    "path": "/images/assets/071519_Tile_new_arrivals_475x300.jpeg",
+    "focal_point": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meta_data": {
+      "height": 300,
+      "width": 475
+    }
+  },
+  "buttonText": "SHOP NEW ARRIVALS",
+  "buttonType": "Primary",
+  "headingColor": {
+    "color": "#fafafa"
+  },
+  "heading": "&lt;h2&gt;&lt;strong&gt;New Season, New Styles&lt;/strong&gt;&lt;/h2&gt;",
+  "overlayPosition": "Middle Left",
+  "buttonLink": "$url('Search-Show', 'cgid', 'women-jackets')$",
+  "subheadingColor": {
+    "color": "#fff"
+  },
+  "subheading": "&lt;h4&gt;Gear up in our new fall collection&lt;/h4&gt;"
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="e11bdbbe4c29f178779718750a">
+    <display-name xml:lang="x-default">Banner Component</display-name>
+    <type>component.assets.banner</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "image": {
+    "path": "/images/assets/071519_Tile_Rain_475x300.jpeg",
+    "focal_point": {
+      "x": 0.67,
+      "y": 0.37
+    },
+    "meta_data": {
+      "height": 300,
+      "width": 475
+    }
+  },
+  "buttonText": "SHOP RAIN JACKETS",
+  "buttonType": "Primary",
+  "headingColor": {
+    "color": "#fff"
+  },
+  "heading": "&lt;h2&gt;&lt;strong&gt;Rain, where?&lt;/strong&gt;&lt;/h2&gt;",
+  "overlayPosition": "Middle Left",
+  "buttonLink": "$url('Search-Show', 'cgid', 'women-jackets-rainwear')$",
+  "subheadingColor": {
+    "color": "#fff"
+  },
+  "subheading": "&lt;h4&gt;Water-repelling gear for any occasion and location&lt;/h4&gt;"
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="e66116650831f12663fa98a0f8">
+    <display-name xml:lang="x-default">Banner Component</display-name>
+    <type>component.assets.banner</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "image": {
+    "path": "/images/assets/gear_collage_475x300.jpg",
+    "focal_point": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meta_data": {
+      "height": 300,
+      "width": 475
+    }
+  },
+  "buttonText": "SHOP GEAR",
+  "buttonType": "Primary",
+  "headingColor": {
+    "color": "#fff"
+  },
+  "heading": "&lt;h2&gt;&lt;strong&gt;Small Gear, Big Impact&lt;/strong&gt;&lt;/h2&gt;",
+  "overlayPosition": "Middle Left",
+  "buttonLink": "$url('Search-Show', 'cgid', 'gear')$",
+  "subheadingColor": {
+    "color": "#fff"
+  },
+  "subheading": "&lt;h4&gt;Shop gear essentials to pack&lt;/h4&gt;"
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="8e212286705c52de003d43658f">
+    <display-name xml:lang="x-default">3 Column Component</display-name>
+    <type>component.layouts.3_column</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "column2Width": {
+    "active": "xs",
+    "lg": "4",
+    "md": "12",
+    "sm": "12",
+    "xs": "12"
+  },
+  "border": {
+    "activeBorder": "all",
+    "borders": {
+      "all": {
+        "style": "solid",
+        "width": 0,
+        "color": ""
+      },
+      "top": {
+        "style": "none",
+        "width": 0,
+        "color": "#000000"
+      },
+      "right": {
+        "style": "none",
+        "width": 0,
+        "color": "#000000"
+      },
+      "bottom": {
+        "style": "none",
+        "width": 15,
+        "color": "#000000"
+      },
+      "left": {
+        "style": "none",
+        "width": 0,
+        "color": "#000000"
+      }
+    }
+  },
+  "hideGutters": true,
+  "backgroundColor": {
+    "color": ""
+  },
+  "spacing": {
+    "active": "xs",
+    "lg": {
+      "margin": {
+        "top": "5",
+        "right": "",
+        "bottom": "5",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "md": {
+      "margin": {
+        "top": "5",
+        "right": "",
+        "bottom": "5",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "sm": {
+      "margin": {
+        "top": "5",
+        "right": "",
+        "bottom": "5",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "xs": {
+      "margin": {
+        "top": "5",
+        "right": "",
+        "bottom": "5",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    }
+  },
+  "column3Width": {
+    "active": "xs",
+    "lg": "4",
+    "md": "12",
+    "sm": "12",
+    "xs": "12"
+  },
+  "wrapColumns": true,
+  "alignment": {
+    "active": "xs",
+    "lg": {
+      "direction": "row",
+      "horizontal": "start",
+      "vertical": "start"
+    },
+    "md": {
+      "direction": "row",
+      "horizontal": "start",
+      "vertical": "start"
+    },
+    "sm": {
+      "direction": "row",
+      "horizontal": "start",
+      "vertical": "start"
+    },
+    "xs": {
+      "direction": "column",
+      "horizontal": "center",
+      "vertical": "start"
+    }
+  },
+  "column1Width": {
+    "active": "xs",
+    "lg": "4",
+    "md": "12",
+    "sm": "12",
+    "xs": "12"
+  },
+  "isFullWidth": true
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+    <content-links>
+      <content-link content-id="60a4630c844e4ab6fb2c0c6bd8" type="component.layouts.3_column.column1">
+        <position>0.0</position>
+      </content-link>
+      <content-link content-id="e11bdbbe4c29f178779718750a" type="component.layouts.3_column.column2">
+        <position>0.0</position>
+      </content-link>
+      <content-link content-id="e66116650831f12663fa98a0f8" type="component.layouts.3_column.column3">
+        <position>0.0</position>
+      </content-link>
+    </content-links>
+  </content>
+  <content content-id="4ffe7b80e3956aa1f77d8c7b5f">
+    <display-name xml:lang="x-default">Banner Component</display-name>
+    <type>component.assets.banner</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "image": {
+    "path": "/images/homepage/home-social-1400-370.jpg",
+    "focal_point": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meta_data": {
+      "height": 740,
+      "width": 2800
+    }
+  },
+  "buttonText": null,
+  "buttonType": null,
+  "headingColor": null,
+  "heading": null,
+  "overlayPosition": null,
+  "buttonLink": null,
+  "subheadingColor": null,
+  "subheading": null
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="953b22f8e4a89cfc7584bfdd49">
+    <display-name xml:lang="x-default">1 Column Component</display-name>
+    <type>component.layouts.1_column</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "border": {
+    "activeBorder": "top",
+    "borders": {
+      "all": {
+        "style": "none",
+        "width": 0,
+        "color": "#000000"
+      },
+      "top": {
+        "style": "solid",
+        "width": 0,
+        "color": ""
+      },
+      "right": {
+        "style": "none",
+        "width": 0,
+        "color": "#000000"
+      },
+      "bottom": {
+        "style": "none",
+        "width": 0,
+        "color": "#000000"
+      },
+      "left": {
+        "style": "none",
+        "width": 0,
+        "color": "#000000"
+      }
+    }
+  },
+  "hideGutters": false,
+  "backgroundColor": null,
+  "spacing": {
+    "active": "lg",
+    "lg": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "0",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "md": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "sm": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "xs": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    }
+  },
+  "alignment": {
+    "active": "lg",
+    "lg": {
+      "direction": "row",
+      "horizontal": "center",
+      "vertical": "start"
+    },
+    "md": {
+      "direction": "row",
+      "horizontal": "start",
+      "vertical": "start"
+    },
+    "sm": {
+      "direction": "row",
+      "horizontal": "start",
+      "vertical": "start"
+    },
+    "xs": {
+      "direction": "row",
+      "horizontal": "start",
+      "vertical": "start"
+    }
+  },
+  "column1Width": {
+    "active": "lg",
+    "lg": "10",
+    "md": "12",
+    "sm": "12",
+    "xs": "12"
+  },
+  "isFullWidth": false
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+    <content-links>
+      <content-link content-id="4ffe7b80e3956aa1f77d8c7b5f" type="component.layouts.1_column.column1">
+        <position>0.0</position>
+      </content-link>
+    </content-links>
+  </content>
+  <content content-id="ddbe8db0645352d60d0adbcc12">
+    <display-name xml:lang="x-default">Category Tile Component</display-name>
+    <type>component.assets.categoryTile</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "border": null,
+  "image": {
+    "path": "/images/category/kids-subcategory-babies-200-200.png",
+    "focal_point": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meta_data": {
+      "height": 400,
+      "width": 400
+    }
+  },
+  "backgroundColor": null,
+  "spacing": null,
+  "category": "kids"
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="cf2c2eec364ecf4f10969080eb">
+    <display-name xml:lang="x-default">Category Tile Component</display-name>
+    <type>component.assets.categoryTile</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "border": {
+    "activeBorder": "all",
+    "borders": {
+      "all": {
+        "style": "none",
+        "width": 5,
+        "color": "#000000"
+      },
+      "top": {
+        "style": "none",
+        "width": 0,
+        "color": "#000000"
+      },
+      "right": {
+        "style": "none",
+        "width": 0,
+        "color": "#000000"
+      },
+      "bottom": {
+        "style": "none",
+        "width": 0,
+        "color": "#000000"
+      },
+      "left": {
+        "style": "none",
+        "width": 0,
+        "color": "#000000"
+      }
+    }
+  },
+  "image": {
+    "path": "/images/category/women-subcategory-tops-200-200.png",
+    "focal_point": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meta_data": {
+      "height": 400,
+      "width": 400
+    }
+  },
+  "backgroundColor": null,
+  "spacing": {
+    "active": "md",
+    "lg": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "md": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "sm": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "xs": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    }
+  },
+  "category": "women",
+  "titleOverride": null
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="52ba45bcb883b7075671de145a">
+    <display-name xml:lang="x-default">Category Tile Component</display-name>
+    <type>component.assets.categoryTile</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "border": null,
+  "image": {
+    "path": "/images/category/men-subcategory-jackets-200-200.png",
+    "focal_point": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meta_data": {
+      "height": 400,
+      "width": 400
+    }
+  },
+  "backgroundColor": null,
+  "spacing": {
+    "margin": {
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": ""
+    },
+    "padding": {
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": ""
+    }
+  },
+  "category": "men"
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="6b8c0737ae4f1453e04c22acf7">
+    <display-name xml:lang="x-default">Category Tile Component</display-name>
+    <type>component.assets.categoryTile</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "border": null,
+  "image": {
+    "path": "/images/category/footwear-subcategory-men-200-200.png",
+    "focal_point": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meta_data": {
+      "height": 400,
+      "width": 400
+    }
+  },
+  "backgroundColor": null,
+  "spacing": {
+    "margin": {
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": ""
+    },
+    "padding": {
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": ""
+    }
+  },
+  "category": "shoes"
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="b937a5f2903d2610634f401cfe">
+    <display-name xml:lang="x-default">Category Tile Component</display-name>
+    <type>component.assets.categoryTile</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "border": null,
+  "image": {
+    "path": "/images/category/gear-subcategory-bags-200-200.png",
+    "focal_point": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meta_data": {
+      "height": 400,
+      "width": 400
+    }
+  },
+  "backgroundColor": null,
+  "spacing": {
+    "margin": {
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": ""
+    },
+    "padding": {
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": ""
+    }
+  },
+  "category": "gear"
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="39d12f5c1b112db648c010d2dc">
+    <display-name xml:lang="x-default">Category Tile Component</display-name>
+    <type>component.assets.categoryTile</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "border": null,
+  "image": {
+    "path": "/images/category/nutrition-subcategory-drinks-200-200.png",
+    "focal_point": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meta_data": {
+      "height": 400,
+      "width": 400
+    }
+  },
+  "backgroundColor": null,
+  "spacing": {
+    "active": "lg",
+    "lg": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "md": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "sm": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "xs": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    }
+  },
+  "category": "nutrition"
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="d04b45b3c0531dc0eefaa3d0d2">
+    <display-name xml:lang="x-default">6 Column Component</display-name>
+    <type>component.layouts.6_column</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "border": null,
+  "hideGutters": false,
+  "backgroundColor": null,
+  "column3Width": {
+    "active": "xs",
+    "lg": "2",
+    "md": "6",
+    "sm": "6",
+    "xs": "6"
+  },
+  "column4Width": {
+    "active": "xs",
+    "lg": "2",
+    "md": "6",
+    "sm": "6",
+    "xs": "6"
+  },
+  "column6Width": {
+    "active": "xs",
+    "lg": "2",
+    "md": "6",
+    "sm": "6",
+    "xs": "6"
+  },
+  "column1Width": {
+    "active": "xs",
+    "lg": "2",
+    "md": "6",
+    "sm": "6",
+    "xs": "6"
+  },
+  "column2Width": {
+    "active": "xs",
+    "lg": "2",
+    "md": "6",
+    "sm": "6",
+    "xs": "6"
+  },
+  "spacing": {
+    "active": "xs",
+    "lg": {
+      "margin": {
+        "top": "5",
+        "right": "",
+        "bottom": "3",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "md": {
+      "margin": {
+        "top": "5",
+        "right": "",
+        "bottom": "3",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "sm": {
+      "margin": {
+        "top": "5",
+        "right": "",
+        "bottom": "3",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "xs": {
+      "margin": {
+        "top": "5",
+        "right": "",
+        "bottom": "3",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    }
+  },
+  "wrapColumns": true,
+  "alignment": {
+    "active": "xs",
+    "lg": {
+      "direction": "row",
+      "horizontal": "center",
+      "vertical": "start"
+    },
+    "md": {
+      "direction": "row",
+      "horizontal": "center",
+      "vertical": "start"
+    },
+    "sm": {
+      "direction": "row",
+      "horizontal": "center",
+      "vertical": "start"
+    },
+    "xs": {
+      "direction": "row",
+      "horizontal": "center",
+      "vertical": "start"
+    }
+  },
+  "isFullWidth": false,
+  "column5Width": {
+    "active": "xs",
+    "lg": "2",
+    "md": "6",
+    "sm": "6",
+    "xs": "6"
+  }
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+    <content-links>
+      <content-link content-id="ddbe8db0645352d60d0adbcc12" type="component.layouts.6_column.column3">
+        <position>0.0</position>
+      </content-link>
+      <content-link content-id="cf2c2eec364ecf4f10969080eb" type="component.layouts.6_column.column1">
+        <position>0.0</position>
+      </content-link>
+      <content-link content-id="52ba45bcb883b7075671de145a" type="component.layouts.6_column.column2">
+        <position>0.0</position>
+      </content-link>
+      <content-link content-id="6b8c0737ae4f1453e04c22acf7" type="component.layouts.6_column.column4">
+        <position>0.0</position>
+      </content-link>
+      <content-link content-id="b937a5f2903d2610634f401cfe" type="component.layouts.6_column.column5">
+        <position>0.0</position>
+      </content-link>
+      <content-link content-id="39d12f5c1b112db648c010d2dc" type="component.layouts.6_column.column6">
+        <position>0.0</position>
+      </content-link>
+    </content-links>
+  </content>
+  <content content-id="8b7addfc2edad41898292a2b6e">
+    <display-name xml:lang="x-default">Section Header Component</display-name>
+    <type>component.assets.sectionHeader</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "showDesignElement": false,
+  "spacing": {
+    "margin": {
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": ""
+    },
+    "padding": {
+      "top": "",
+      "right": "",
+      "bottom": "",
+      "left": ""
+    }
+  },
+  "headingColor": {
+    "color": ""
+  },
+  "heading": "Trending This Season",
+  "subheadingColor": null,
+  "subheading": null
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="aa1cafcffff7a9caf47c92c25d">
+    <display-name xml:lang="x-default">1 Column Component</display-name>
+    <type>component.layouts.1_column</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "border": null,
+  "hideGutters": false,
+  "backgroundColor": null,
+  "spacing": {
+    "active": "lg",
+    "lg": {
+      "margin": {
+        "top": "3",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "md": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "sm": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "xs": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    }
+  },
+  "alignment": {
+    "active": "lg",
+    "lg": {
+      "direction": "row",
+      "horizontal": "center",
+      "vertical": "start"
+    },
+    "md": {
+      "direction": "row",
+      "horizontal": "start",
+      "vertical": "start"
+    },
+    "sm": {
+      "direction": "row",
+      "horizontal": "start",
+      "vertical": "start"
+    },
+    "xs": {
+      "direction": "row",
+      "horizontal": "start",
+      "vertical": "start"
+    }
+  },
+  "column1Width": {
+    "active": "lg",
+    "lg": "12",
+    "md": "12",
+    "sm": "12",
+    "xs": "12"
+  },
+  "isFullWidth": true
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+    <content-links>
+      <content-link content-id="8b7addfc2edad41898292a2b6e" type="component.layouts.1_column.column1">
+        <position>0.0</position>
+      </content-link>
+    </content-links>
+  </content>
+  <content content-id="48b9a890fe6d53222a73387658">
+    <display-name xml:lang="x-default">Banner Component</display-name>
+    <type>component.assets.banner</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "image": {
+    "path": "/images/homepage/home-banner-01-1905-800.jpg",
+    "focal_point": {
+      "x": 0.36,
+      "y": 0.49
+    },
+    "meta_data": {
+      "height": 800,
+      "width": 1905
+    }
+  },
+  "buttonText": "Shop Jackets",
+  "buttonType": "Primary",
+  "headingColor": {
+    "color": "#ffffff"
+  },
+  "heading": "&lt;h1&gt;&lt;strong&gt;Explore Best Selling NTO Jackets&lt;/strong&gt;&lt;/h1&gt;",
+  "overlayPosition": "Middle Left",
+  "buttonLink": "$url('Search-Show', 'cgid', 'nto-storefront-global')$",
+  "subheadingColor": {
+    "color": "#ffffff"
+  },
+  "subheading": "&lt;h4&gt;See what jackets the pros trust most.&lt;/h4&gt;"
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="d570c14bd8a1ec9d3fd9c914f8">
+    <display-name xml:lang="x-default">Banner Component</display-name>
+    <type>component.assets.banner</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "image": {
+    "path": "/images/homepage/home-banner-04-1905-800.jpg",
+    "focal_point": {
+      "x": 0.36,
+      "y": 0.4
+    },
+    "meta_data": {
+      "height": 800,
+      "width": 1905
+    }
+  },
+  "buttonText": "Shop Cycle",
+  "buttonType": null,
+  "headingColor": {
+    "color": "#ffffff"
+  },
+  "heading": "&lt;h1&gt;&lt;strong&gt;The New NTO Cycle Series is Here&lt;/strong&gt;&lt;/h1&gt;",
+  "overlayPosition": "Middle Left",
+  "buttonLink": "$url('Search-Show', 'cgid', 'gear-cycling')$",
+  "subheadingColor": {
+    "color": "#ffffff"
+  },
+  "mobImage": {
+    "path": "men-category.jpg",
+    "focal_point": {
+      "x": 0.5,
+      "y": 0.5
+    },
+    "meta_data": {
+      "height": 400,
+      "width": 1680
+    }
+  },
+  "subheading": "&lt;h4&gt;Get wherever you're going with new NTO bikes and equipment.&lt;/h4&gt;",
+  "overlayAlignment": null
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="63368cde40da9ea535ae62d7a8">
+    <display-name xml:lang="x-default">Banner Component</display-name>
+    <type>component.assets.banner</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "image": {
+    "path": "/images/homepage/home-banner-02-1905-800.jpg",
+    "focal_point": {
+      "x": 0.69,
+      "y": 0.5
+    },
+    "meta_data": {
+      "height": 800,
+      "width": 1905
+    }
+  },
+  "buttonText": "Shop New Arrivals",
+  "buttonType": "Primary",
+  "headingColor": {
+    "color": "#ffffff"
+  },
+  "heading": "&lt;h1&gt;&lt;strong&gt;Adventure Awaits&lt;/strong&gt;&lt;/h1&gt;",
+  "overlayPosition": "Middle Left",
+  "buttonLink": "$url('Search-Show', 'cgid', 'nto-storefront-global')$",
+  "subheadingColor": {
+    "color": "#ffffff"
+  },
+  "subheading": "&lt;h4&gt;New NTO arrivals are here for your next adventure.&lt;/h4&gt;"
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="50a7e119bf00a9d25065093556">
+    <display-name xml:lang="x-default">Banner Carousel Component</display-name>
+    <type>component.carousel.bannerCarousel</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "border": null,
+  "backgroundColor": {
+    "color": "#ffffff"
+  },
+  "infiniteScroll": true,
+  "spacing": {
+    "active": "lg",
+    "lg": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "5",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "md": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "sm": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "xs": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    }
+  },
+  "dots": false,
+  "arrows": true,
+  "autoplay": true,
+  "isFullWidth": true,
+  "autoplaySpeed": 4
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+    <content-links>
+      <content-link content-id="48b9a890fe6d53222a73387658" type="component.carousel.bannerCarousel.banners">
+        <position>1.0</position>
+      </content-link>
+      <content-link content-id="d570c14bd8a1ec9d3fd9c914f8" type="component.carousel.bannerCarousel.banners">
+        <position>2.0</position>
+      </content-link>
+      <content-link content-id="63368cde40da9ea535ae62d7a8" type="component.carousel.bannerCarousel.banners">
+        <position>0.0</position>
+      </content-link>
+    </content-links>
+  </content>
+  <content content-id="ab719006df33ce476579c94561">
+    <display-name xml:lang="x-default">Einstein Carousel: Global Component</display-name>
+    <type>component.carousel.einsteinCarouselGlobal</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "border": null,
+  "backgroundColor": null,
+  "spacing": {
+    "active": "lg",
+    "lg": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "md": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "sm": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "xs": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    }
+  },
+  "breakpoints": {
+    "active": "xs",
+    "lg": {
+      "slidesToShow": 4,
+      "slidesToScroll": 4,
+      "centerMode": false,
+      "infinite": true,
+      "autoplay": true,
+      "autoplaySpeed": 8000,
+      "arrows": true,
+      "dots": false
+    },
+    "md": {
+      "slidesToShow": 3,
+      "slidesToScroll": 3,
+      "centerMode": false,
+      "infinite": false,
+      "autoplay": false,
+      "autoplaySpeed": 8000,
+      "arrows": false,
+      "dots": false
+    },
+    "sm": {
+      "slidesToShow": 2,
+      "slidesToScroll": 2,
+      "centerMode": false,
+      "infinite": false,
+      "autoplay": false,
+      "autoplaySpeed": 8000,
+      "arrows": false,
+      "dots": false
+    },
+    "xs": {
+      "slidesToShow": 2,
+      "slidesToScroll": 4,
+      "centerMode": false,
+      "infinite": false,
+      "autoplay": false,
+      "autoplaySpeed": 8000,
+      "arrows": false,
+      "dots": false
+    }
+  },
+  "recommender": {
+    "recommender": "HOME-products-in-all-categories"
+  },
+  "isFullWidth": false
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="c03aeeebcb3f8b07a603a2f729">
+    <type>component.custom.map</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "latLong": "40.7128,-74.0060"
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+  </content>
+  <content content-id="c4c0a5a5a0b48eb9106c7dfc14">
+    <type>component.layouts.2_column</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <data xml:lang="x-default">{
+  "column2Width": {
+    "active": "lg",
+    "lg": "6",
+    "md": "12",
+    "sm": "12",
+    "xs": "12"
+  },
+  "border": null,
+  "hideGutters": false,
+  "backgroundColor": null,
+  "spacing": {
+    "active": "lg",
+    "lg": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "md": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "sm": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    },
+    "xs": {
+      "margin": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      },
+      "padding": {
+        "top": "",
+        "right": "",
+        "bottom": "",
+        "left": ""
+      }
+    }
+  },
+  "wrapColumns": false,
+  "alignment": {
+    "active": "lg",
+    "lg": {
+      "direction": "row",
+      "horizontal": "start",
+      "vertical": "start"
+    },
+    "md": {
+      "direction": "row",
+      "horizontal": "start",
+      "vertical": "start"
+    },
+    "sm": {
+      "direction": "row",
+      "horizontal": "start",
+      "vertical": "start"
+    },
+    "xs": {
+      "direction": "row",
+      "horizontal": "start",
+      "vertical": "start"
+    }
+  },
+  "column1Width": {
+    "active": "lg",
+    "lg": "6",
+    "md": "12",
+    "sm": "12",
+    "xs": "12"
+  },
+  "uniqueId": null,
+  "isFullWidth": false
+}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <page-attributes/>
+    <content-links>
+      <content-link content-id="c03aeeebcb3f8b07a603a2f729" type="component.layouts.2_column.column1">
+        <position>0.0</position>
+      </content-link>
+    </content-links>
+  </content>
+  <content content-id="main">
+    <display-name xml:lang="x-default">Main</display-name>
+    <type>page.home</type>
+    <config>{
+  "visibility" : [ ]
+}</config>
+    <visibility-mode xml:lang="x-default">visible</visibility-mode>
+    <data xml:lang="x-default">{}</data>
+    <online-flag>true</online-flag>
+    <online-flag site-id="nto">true</online-flag>
+    <searchable-flag>false</searchable-flag>
+    <searchable-flag site-id="nto">false</searchable-flag>
+    <page-attributes/>
+    <folder-links>
+      <classification-link folder-id="nto"/>
+    </folder-links>
+    <content-links>
+      <content-link content-id="e1c7dfc0a7cbd5536397fdbd12" type="page.home.main">
+        <position>1.0</position>
+      </content-link>
+      <content-link content-id="160be4458107a898dea4e630e4" type="page.home.main">
+        <position>7.0</position>
+      </content-link>
+      <content-link content-id="fb5feb50364cbe8e579eb469e5" type="page.home.main">
+        <position>6.0</position>
+      </content-link>
+      <content-link content-id="b2c783c21b48a976713857bfb4" type="page.home.main">
+        <position>9.0</position>
+      </content-link>
+      <content-link content-id="0c8ca1d951be52af89f5583c93" type="page.home.main">
+        <position>5.0</position>
+      </content-link>
+      <content-link content-id="3b2b11426baecc0e1c18a36dbe" type="page.home.main">
+        <position>10.0</position>
+      </content-link>
+      <content-link content-id="8e212286705c52de003d43658f" type="page.home.main">
+        <position>3.0</position>
+      </content-link>
+      <content-link content-id="953b22f8e4a89cfc7584bfdd49" type="page.home.main">
+        <position>8.0</position>
+      </content-link>
+      <content-link content-id="d04b45b3c0531dc0eefaa3d0d2" type="page.home.main">
+        <position>2.0</position>
+      </content-link>
+      <content-link content-id="aa1cafcffff7a9caf47c92c25d" type="page.home.main">
+        <position>4.0</position>
+      </content-link>
+      <content-link content-id="50a7e119bf00a9d25065093556" type="page.home.main">
+        <position>0.0</position>
+      </content-link>
+      <content-link content-id="ab719006df33ce476579c94561" type="page.home.main">
+        <position>11.0</position>
+      </content-link>
+      <content-link content-id="c4c0a5a5a0b48eb9106c7dfc14" type="page.home.main">
+        <position>12.0</position>
+      </content-link>
+    </content-links>
+    <sitemap-included-flag site-id="nto">true</sitemap-included-flag>
+  </content>
+</library>

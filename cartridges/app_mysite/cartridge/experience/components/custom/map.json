@@ -1,0 +1,22 @@
+{
+    "name": "Map",
+    "description": "A component that displays a map based on a lat/long coordinate.",
+    "group": "custom",
+
+    "attribute_definition_groups": [
+        {
+            "id": "location",
+            "name": "Location",
+            "description": "The geographical location to display on the map.",
+            "attribute_definitions": [
+                {
+                    "id": "latLong",
+                    "name": "Latitude and Longitude",
+                    "type": "string",
+                    "required": true
+                }
+            ]
+        }
+    ],
+    "region_definitions": []
+}
