@@ -113,7 +113,56 @@ async function setActiveDwjson(instance, configFile) {
     }
 }
 
+/**
+ * Mask sensitive values in an object by replacing all but the first 4 characters with asterisks
+ * @param {object} obj - The object to mask
+ * @param {boolean} shouldMask - Whether to apply masking
+ * @returns {object} - The masked object
+ */
+function maskSensitiveValues(obj, shouldMask) {
+    if (!shouldMask) {
+        return obj;
+    }
+    
+    const masked = {};
+    
+    for (const [key, value] of Object.entries(obj)) {
+        if (value && typeof value === 'string' && SENSITIVE_ATTRIBUTES.some(attr => key.toLowerCase().includes(attr.toLowerCase()))) {
+            // Keep first 4 characters and mask the rest
+            masked[key] = value.length > 4 
+                ? value.substring(0, 4) + '*'.repeat(value.length - 4)
+                : value;
+        } else if (value && typeof value === 'object' && !Array.isArray(value)) {
+            // Recursively mask nested objects
+            masked[key] = maskSensitiveValues(value, shouldMask);
+        } else if (Array.isArray(value)) {
+            // Handle arrays
+            masked[key] = value.map(item => 
+                typeof item === 'object' ? maskSensitiveValues(item, shouldMask) : item
+            );
+        } else {
+            masked[key] = value;
+        }
+    }
+    
+    return masked;
+}
+
 const QUERY_CHOICES = ['all', 'sites', 'libraries', 'codeVersions', 'global', 'preferences']
+
+// Sensitive attributes that should be masked in debug output
+const SENSITIVE_ATTRIBUTES = [
+    'password',
+    'p',
+    'client-secret',
+    'oauth-client-secret',
+    'clientSecret',
+    'oauthClientSecret',
+    'intellij-credentials-key',
+    'intellijCredentialsKey',
+    'managedRuntimeApiKey',
+    'managed-runtime-api-key',
+]
 module.exports = {
     command: 'instance',
     desc: 'project/environment management commands',
@@ -135,9 +184,15 @@ module.exports = {
             }
         )
         .command('debug', 'debugging cli environment',
-            async (y) => y,
+            async (y) => y
+                .option('mask', {
+                    describe: 'mask sensitive values in output',
+                    default: true,
+                    type: 'boolean'
+                }),
             async (argv) => {
-                console.log(JSON.stringify(argv, null, 2));
+                const maskedArgv = maskSensitiveValues(argv, argv.mask);
+                console.log(JSON.stringify(maskedArgv, null, 2));
             }
         )
         .command('info', 'gather information from instance',
