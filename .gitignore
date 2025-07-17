@@ -1,2 +1,5 @@
 tmp/
 node_modules/
+dw.json
+.claude/
+*.tsbuildinfo
