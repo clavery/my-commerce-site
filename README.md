@@ -10,6 +10,7 @@ for development and CI/CD scenarios.
 
 - A CLI and [extendable](./docs/EXTENDING.md) library that understands most common B2C configuration sources
   including [multiple instances](#configuration)
+- A [model context protocol (MCP)](#mcp-server) server for coding agents
 - A data migration system for managing imports and migration "scripts" to B2C instances
     - see [Migrations](#migrations) for usage and [docs/MIGRATIONS](docs/MIGRATIONS.md) for details
 - A [feature management system](#feature-management) ([more details](./docs/FEATURES.md))
@@ -447,9 +448,57 @@ b2c-tools mcp
   - `filters`: Log file prefixes to filter (default: ["error-", "customerror-"])
   - `includeAllLogs`: Include all logs, not just those with local project paths (default: false)
 
+- `export-b2c-site-data` - Export site and global data from B2C instance into extracted XML files:
+  - `outputPath`: Output directory path for extracted files (default: "./tmp")
+  - `dataUnits`: Export data units configuration object that specifies what data to export
+    - `catalogs`: Object mapping catalog IDs to boolean values
+    - `inventory_lists`: Object mapping inventory list IDs to boolean values
+    - `libraries`: Object mapping library IDs to boolean values
+    - `price_books`: Object mapping price book IDs to boolean values
+    - `sites`: Object mapping site IDs to site-specific export options
+    - `global_data`: Object specifying which global data to export
+  - Creates a timestamped directory containing the exported XML files
+
+##### Example Usage
+
+To export site data using the `export-b2c-site-data` tool, you would pass a configuration like:
+
+```json
+{
+  "outputPath": "./exports",
+  "dataUnits": {
+    "sites": {
+      "RefArch": {
+        "content": true,
+        "site_preferences": true,
+        "slots": true
+      }
+    },
+    "catalogs": {
+      "apparel-catalog": true
+    },
+    "global_data": {
+      "custom_types": true,
+      "system_type_definitions": true
+    }
+  }
+}
+```
+
+This would export content, preferences, and slots from the RefArch site, the apparel catalog, and global custom types to a timestamped directory under `./exports/`.
+
 #### Configuration
 
 The MCP server uses your existing b2c-tools configuration (dw.json, environment variables, etc.) to connect to your SFCC instance.
+
+##### Context
+
+Recommended context for coding agents
+
+```
+- When using b2c-tools MCP ensure that we use the proper, case-sensitive, site ID for any tools or resources that require it. Use the b2c://sites resource to determine this
+```
+
 
 ##### Claude Code
 
