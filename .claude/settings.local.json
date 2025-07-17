@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__b2c-tools__get-error-logs",
+      "Bash(find:*)",
+      "mcp__b2c-tools__export-b2c-site-data",
+      "Bash(grep:*)"
+    ],
+    "deny": []
+  }
+}
