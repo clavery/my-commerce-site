@@ -80,6 +80,15 @@ npm install
 #### Importing Data
 
 - `./cli.js import run` will run a migration site export folder, zip file or [migration script](#migration-scripts) and import it to the instance
+- Two types of migrations are supported, regular impex archives (in folder form) and JavaScript [migration scripts](#migration-scripts)
+- The `import migrate` subcommand will run all migrations in the `migrations` folder and "apply" them to your instance
+- Applying means that (normally) they will only run once and never again.
+- You can control behavior through the use of [lifecycle functions](https://github.com/SalesforceCommerceCloud/b2c-tools/blob/main/docs/MIGRATIONS.md#lifecycle-functions)
+    - For instance you can specify that specific migrations should always run, or only run if a certain condition is met (like not targeting a staging instance)
+- b2c-tools will bootstrap itself when migrations are run as long as it has minimal OCAPI permissions to do so (generally access to jobs)
+- `import run` will run a migration folder without applying it; in fact you can do this from any where
+- We maintain a tool version and a data version so that b2c-tools can evolve it's metadata and behavior over time and track if an instance needs to be updated
+    - For instance if we want to change how/where migrations are stored, we can do that and then update the data version
 
 #### Migration Scripts
 
@@ -115,8 +124,6 @@ EOF
     - There are some non-default flags for certain use cases
     - Finally we can output the library to a new string with `await library.toXMLString()` and do whatever including importing back to the instance.
 
-### Features
-
 ### Logs
 
 - `tail` will tail the server logs for the current instance
@@ -129,4 +136,11 @@ EOF
 - There is a minimal MCP server implementation using the `mcp` subcommand
 - One of the tools is `get-error-logs` which will get the error logs for the current instance
   - Any file path in the server error log that matches a cartridge locally will be rewritten to the local path like tail can do.
+
+### Features
+
+- Features are a concept that wraps up code and migrations into a reusable package
+- The `feature` subcommand provides tools to work with features
+- Lifecycle callbacks allow for asking questions before migrating and removal of the feature
+- See https://github.com/SalesforceCommerceCloud/b2c-tools/blob/main/docs/FEATURES.md
 
