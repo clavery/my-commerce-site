@@ -31,7 +31,8 @@
     "include": [
         "./cartridges/**/*.js",
         "migrations/**/*.js",
-        "scripts/**/*.js"
+        "scripts/**/*.js",
+        "b2c-deploy.js"
     ],
     "compileOnSave": false
 }
