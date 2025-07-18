@@ -13,16 +13,12 @@
 </style>
 
 <isscript>
-    var lat = "${pdict.latLong.split(',')[0]}";
-    var long = "${pdict.latLong.split(',')[1]}";
+    var lat = pdict.latLong.split(',')[0];
+    var long = pdict.latLong.split(',')[1];
 </isscript>
 <div class="map-container">
     <h1>Location Map</h1>
-    <p><strong>Coordinates:</strong> ${pdict.latLong}</p>
+    <p><strong>Coordinates:</strong> ${lat}, ${long}</p>
 
-    <iframe
-        class="map-frame"
-    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3024.1!2d${long}!3d${lat}!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ2LjEiTiA3NMKwMDAnMjEuNiJX!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus"
-        allowfullscreen>
-    </iframe>
+    <iframe class="map-frame" src="http://maps.google.com/maps?q=${lat},${long}&z=16&output=embed" height="450" width="600"></iframe>
 </div>
