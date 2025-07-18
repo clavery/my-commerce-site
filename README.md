@@ -65,6 +65,11 @@ npm install
   - There is a `--mirror` option that will attempt to mirror cartridges of the same name to the local project and also keep local permissions
   - This is useful for viewing changes made to the instance out of version control
 
+#### Deploy Scripts
+
+- If a `b2c-deploy.js` script (configurable) is found in the project the `beforeDeploy` and `afterDeploy` lifecycle functions will be run before and after the deployment
+   - This can stop the deployment, be used for notifications or in our sample script in this project copies specific cartridges from one code version to another
+
 ### Migrations
 
 #### Exporting Data
@@ -75,10 +80,6 @@ npm install
 #### Importing Data
 
 - `./cli.js import run` will run a migration site export folder, zip file or [migration script](#migration-scripts) and import it to the instance
-
-
-- History is stored in in logs
-    - Credential redaction
 
 #### Migration Scripts
 
