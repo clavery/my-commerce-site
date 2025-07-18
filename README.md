@@ -54,6 +54,10 @@ npm install
 - Client ID and secret are optional but very likely needed for anything that uses OCAPI. If a secret is not provided we will use implicit auth and open a browser. If a client ID is not provided we will use the `defaultClientId` in package.json if it's provide and implicit auth with that.
   - Note that implicit auth has some limitations so for full functionality you should provide a client ID and secret and client_credentials auth will be used.
 
+- the `instance debug` command will print out the current instance configuration
+- `instance info` will traverse various configurations of the instance and output as JSON
+  - So for instance if you needed to know the storefront catalog ID of the nto site in CI/CD: `./cli.js instance info | jq '.sites[] | select(.id=="nto").preferences.catalog'`
+
 
 ### Code Deployment
 
@@ -86,6 +90,7 @@ npm install
 - You can control behavior through the use of [lifecycle functions](https://github.com/SalesforceCommerceCloud/b2c-tools/blob/main/docs/MIGRATIONS.md#lifecycle-functions)
     - For instance you can specify that specific migrations should always run, or only run if a certain condition is met (like not targeting a staging instance)
 - b2c-tools will bootstrap itself when migrations are run as long as it has minimal OCAPI permissions to do so (generally access to jobs)
+- Verbose migration logs are placed in the `Impex/log/b2c-tools` webdav folder w/ redacted sensitive information
 - `import run` will run a migration folder without applying it; in fact you can do this from any where
 - We maintain a tool version and a data version so that b2c-tools can evolve it's metadata and behavior over time and track if an instance needs to be updated
     - For instance if we want to change how/where migrations are stored, we can do that and then update the data version
