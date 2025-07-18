@@ -70,6 +70,21 @@ npm install
 - History in logs
     - Credential redaction
 
+#### Migration Scripts
+
+- the `import run` subcommand will run a migration script as well
+- it can even run via standard input or a shell HEREDOC script when the `-` argument is used as the file
+  - We use this in a couple places in CI/CD where we don't have an official script written
+
+```bash
+b2c-tools import run - <<EOF
+const sites = await env.ocapi.get('/sites');
+for (const site of sites.data.data) {
+  console.log(site.id);
+}
+EOF
+```
+
 ### Page Designer
 
 - Specifying alternative static asset exports
@@ -89,6 +104,16 @@ npm install
 
 ### Features
 
+### Logs
+
+- `tail` will tail the server logs for the current instance
+  - Use the `--normalize` flag to rewrite any paths that match local cartridges to the local path
+  - This is useful for IDES and AI tools to find the files.
+  - Here is an example of integrating this with [VSCode Tasks](https://github.com/SalesforceCommerceCloud/b2c-tools/blob/main/docs/TASKS.md)
+
 ### MCP
 
+- There is a minimal MCP server implementation using the `mcp` subcommand
+- One of the tools is `get-error-logs` which will get the error logs for the current instance
+  - Any file path in the server error log that matches a cartridge locally will be rewritten to the local path like tail can do.
 
