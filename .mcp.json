@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "b2c-tools": {
+      "type": "stdio",
+      "command": "./cli.js",
+      "args": [
+        "mcp"
+      ],
+      "env": {}
+    }
+  }
+}
