@@ -67,7 +67,17 @@ npm install
 
 ### Migrations
 
-- History in logs
+#### Exporting Data
+
+- `./cli.js export site` will perform a site export with interactive selection without needing to login to business manager
+    - automatically extracts the zip file
+
+#### Importing Data
+
+- `./cli.js import run` will run a migration site export folder, zip file or [migration script](#migration-scripts) and import it to the instance
+
+
+- History is stored in in logs
     - Credential redaction
 
 #### Migration Scripts
@@ -84,6 +94,8 @@ for (const site of sites.data.data) {
 }
 EOF
 ```
+
+- Migration scripts follow a standard signature found throughout b2c-tools
 
 ### Page Designer
 
