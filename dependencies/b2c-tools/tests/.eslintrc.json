@@ -1,9 +1,0 @@
-{
-  "env": {
-    "jest/globals": true
-  },
-  "plugins": ["jest"],
-  "rules": {
-    "no-unused-vars": 0
-  }
-}
