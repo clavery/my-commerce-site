@@ -9,9 +9,6 @@
   "private": true,
   "license": "Private",
   "description": "",
-  "dependencies": {
-    "@SalesforceCommerceCloud/b2c-tools": "file:dependencies/b2c-tools"
-  },
   "devDependencies": {
     "typescript": "^5.8.3"
   },
