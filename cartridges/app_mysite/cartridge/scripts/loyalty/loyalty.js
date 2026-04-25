@@ -17,10 +17,22 @@ var loyaltyService = LocalServiceRegistry.createService('loyalty.external.api', 
 });
 
 module.exports.getLoyaltyPoints = function (customer) {
+    if (!customer || !customer.profile) {
+        return 0;
+    }
+
+    var fallbackPoints = customer.profile.custom && customer.profile.custom.loyaltyPoints
+        ? customer.profile.custom.loyaltyPoints
+        : 0;
+
+    if (!customer.profile.customerNo) {
+        return fallbackPoints;
+    }
+
     var result = loyaltyService.call(customer.profile.customerNo);
     if (result.ok && result.object && result.object.points != null) {
         return result.object.points;
     }
 
-    return customer.profile.custom.loyaltyPoints || 0;
-}
+    return fallbackPoints;
+};
