@@ -1,6 +1,6 @@
-# my commerce site
+# My Commerce Site
 
-This is a sample b2c commerce site used strictly to demonstration `b2c` features
+This is my b2c commerce site
 
 ## Installation
 
@@ -8,4 +8,3 @@ This is a sample b2c commerce site used strictly to demonstration `b2c` features
 npm install
 npm install -g @salesforce/b2c-cli
 ```
-
