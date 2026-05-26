@@ -11,8 +11,7 @@ var server = require('server');
 var cache = require('*/cartridge/scripts/middleware/cache');
 var consentTracking = require('*/cartridge/scripts/middleware/consentTracking');
 var pageMetaData = require('*/cartridge/scripts/middleware/pageMetaData');
-
-
+var OrderMgr = require('dw/order/OrderMgr');
 
 /**
  * Foo-Show : Renders the foo page
@@ -52,6 +51,28 @@ server.get(
 server.append('Show', pageMetaData.computedPageMetaData);
 
 
+server.get(
+    'Tpl',
+    server.middleware.https,
+    consentTracking.consent,
+    cache.applyDefaultCache,
+    function (req, res, next) {
+        var customerProfile = req.currentCustomer && req.currentCustomer.profile;
+        var viewData = {
+            title: 'Foo',
+            message: 'Hello from test!',
+            innerObject: {
+
+                key1: 'Value 1',
+                arr: ['Item 1', 'Item 2', 'Item 3']
+            },
+            customerNo: customerProfile ? customerProfile.customerNo : null
+        };
+
+        res.render('foo', viewData);
+        next();
+    }
+);
 
 /**
  * Foo-Submit : Handles form submission for foo

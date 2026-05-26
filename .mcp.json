@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "b2c-dx-mcp": {
+      "type": "stdio",
+      "command": "/Users/clavery/code/b2c-developer-tooling/main/packages/b2c-dx-mcp/bin/dev.js",
+      "args": [],
+      "env": {}
+    }
+  }
+}

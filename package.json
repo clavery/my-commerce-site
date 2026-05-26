@@ -13,7 +13,14 @@
     "typescript": "^5.8.3"
   },
   "b2c": {
-      "mrtProject": "sedemo"
+      "mrtProject": "sedemo",
+    "libraries": [
+      "NTO-SiteSharedLibrary",
+      {
+          "id": "MarketStreet",
+          "siteLibrary": true
+      }
+    ]
   },
   "b2c-tools": {
     "defaultClientId": "47ccb7e7-dd4d-4434-8d1b-a95ae5623ccf",

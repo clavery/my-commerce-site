@@ -5,6 +5,7 @@ server.get("GetCurrentPoints", function (req, res, next) {
     const currentCustomer = req.currentCustomer.raw;
 
     const points = loyaltyHelper.getLoyaltyPoints(currentCustomer);
+    
     res.json({
         loyaltyPoints: points,
     });
