@@ -10,7 +10,8 @@ module.exports.render = function (context) {
     const model = new HashMap();
     const { content } = context;
 
-    model.latLong = content.latLong;
+    model.latitude = content.latitude;
+    model.longitude = content.longitude;
 
     return new Template('experience/components/custom/map').render(model).text;
 };

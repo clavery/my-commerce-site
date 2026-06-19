@@ -10,8 +10,14 @@
             "description": "The geographical location to display on the map.",
             "attribute_definitions": [
                 {
-                    "id": "latLong",
-                    "name": "Latitude and Longitude",
+                    "id": "latitude",
+                    "name": "Latitude",
+                    "type": "string",
+                    "required": true
+                },
+                {
+                    "id": "longitude",
+                    "name": "Longitude",
                     "type": "string",
                     "required": true
                 }
